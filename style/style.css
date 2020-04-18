@@ -11,7 +11,16 @@ body {
     ),
     url(../img/header.jpeg) no-repeat 100%;
   width: 100%;
-  height: 30rem;
+  height: 34rem;
   background-size: cover;
+}
+
+ul{
+  padding-inline-start: 20px; 
+}
+
+li{
+  line-height: 1.5rem;
+  font-size: 14px;
 }
 
