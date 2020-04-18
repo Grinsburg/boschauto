@@ -15,12 +15,37 @@ body {
   background-size: cover;
 }
 
-ul{
-  padding-inline-start: 20px; 
+ul {
+  padding-inline-start: 20px;
 }
 
-li{
+li {
   line-height: 1.5rem;
   font-size: 14px;
 }
+
+.card-stock {
+  width: 100%;
+  height: 230px;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("./../img/serv-podveski.jpg") no-repeat 50% 50%;
+  cursor: pointer;
+  background-size: contain;
+}
+
+.card-stock .card-text {
+  position: absolute;
+  color: #fff;
+  left: 195px;
+  top: 100px;
+}
+
+.fa{
+  cursor: pointer;
+}
+
 
