@@ -1,4 +1,5 @@
 body {
+  font-family: "Roboto,tahoma,sans-serif";
   width: 100%;
   height: 100%;
 }
@@ -23,12 +24,12 @@ header .stock-link {
 .header {
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.8) 0%,
-      rgba(0, 0, 0, 0.8) 100%
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.9) 100%
     ),
     url(../img/header.jpeg) no-repeat 100%;
   width: 100%;
-  padding: 18.5rem;
+  padding: 18.2rem;
   background-size: cover;
 }
 
@@ -41,9 +42,16 @@ header .navbar-text i{
 }
 
 .header h1{
-  font-size: 3rem;
-  color: #fff;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #4789ca;
   text-transform: uppercase;
+}
+
+.header p{
+  color: #fff;
+  font-size: 1.375rem;
+  font-style: italic;
 }
 
 
@@ -52,12 +60,16 @@ header .navbar-text i{
 }
 
 .time-work p {
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .services {
   background: #f7f7f7;
+}
+
+.services h1{
+  font-weight: bold;
 }
 
 .services .card {
@@ -76,6 +88,10 @@ ul {
 li {
   line-height: 1.5rem;
   font-size: 14px;
+}
+
+.stock h1{
+font-weight: bold;
 }
 
 .card-stock {
@@ -107,8 +123,17 @@ li {
   background: #f7f7f7;
 }
 
+.adv h1{
+  font-weight: bold;
+}
+
+
 .fa {
   cursor: pointer;
+}
+
+.map h1{
+font-weight: bold;
 }
 
 .vl-logo {

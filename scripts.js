@@ -6,3 +6,10 @@ window.addEventListener("scroll", function () {
     this.document.querySelector('.navbar').classList.remove("opacity-header");
   }
 });
+
+$('#popoverData1').popover();
+$('#popoverData2').popover();
+$('#popoverData3').popover();
+$('#popoverData4').popover();
+$('#popoverData5').popover();
+$('#popoverData6').popover();
