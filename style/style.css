@@ -2,6 +2,31 @@ body {
   width: 100%;
   height: 100%;
 }
+nav {
+  background: #f7f7f7;
+}
+
+nav .navbar-text{
+  color: #4789ca!important;
+}
+
+header .stock-link {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4789ca !important;
+}
+
+.opacity-header{
+  opacity: 0.8;
+}
+
+.stock-link::after{
+  font-family: "Font Awesome 4 Free";
+  content: "\2726";
+  position: absolute;
+  top: 10px;
+  color: #ffc251;
+}
 
 .header {
   background: linear-gradient(
@@ -15,21 +40,26 @@ body {
   background-size: cover;
 }
 
-.time{
+.time {
   background: #f7f7f7;
 }
 
-.time-work p{
+.time-work p {
   font-size: 20px;
   font-weight: bold;
 }
 
-.services{
+.services {
   background: #f7f7f7;
 }
 
-.services .card{
-  box-shadow: 2px 3px 10px #0001;
+.services .card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.services .row-cols-4 > * {
+  flex: 0 0 23%;
+  max-width: 23%;
 }
 
 ul {
@@ -61,13 +91,15 @@ li {
   top: 100px;
 }
 
-.fa{
+.fa {
   cursor: pointer;
 }
 
-.vl-logo{
+.vl-logo {
   width: 25px;
   height: 25px;
 }
 
-
+footer {
+  background: #4789ca;
+}
