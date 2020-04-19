@@ -11,10 +11,17 @@ nav .navbar-text{
   color: #4789ca!important;
 }
 
+.navbar-brand span{
+  color: #4789ca;
+  font-style: italic;
+  font-size: 1rem;
+  letter-spacing: 3px;
+}
+
 header .stock-link {
   font-size: 18px;
   font-weight: 600;
-  color: #4789ca !important;
+  color: #ed6f1e !important;
 }
 
 .opacity-header{
@@ -66,6 +73,10 @@ header .navbar-text i{
 
 .services {
   background: #f7f7f7;
+}
+
+.services .card-img-top{
+  height: 13rem;
 }
 
 .services h1{
@@ -147,4 +158,13 @@ font-weight: bold;
 
 footer {
   background: #4789ca;
+}
+
+footer h6{
+  color: #fff;
+}
+
+footer .footer-time p{
+  color: #fff;
+  margin-bottom: 0!important;
 }
