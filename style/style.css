@@ -192,8 +192,7 @@ footer .footer-time p {
   margin-bottom: 0 !important;
 }
 /* Small devices (landscape phones, 576px and up) */
-
-@media (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 374px) {
   .collapse:not(.show) {
     display: flex !important;
   }
@@ -201,8 +200,8 @@ footer .footer-time p {
     visibility: hidden;
   }
   nav .col-sm-8 {
-    flex: 0 0 49.333333%;
-    max-width: 49.333333%;
+    flex: 0 0 40.333333%;
+    max-width: 40.333333%;
   }
 
   nav .col-sm-4 {
@@ -219,8 +218,8 @@ footer .footer-time p {
   }
 
   .time .col-4 {
-    flex: 0 0 85.333333%;
-    max-width: 85.333333%;
+    flex: 0 0 94.333333%;
+    max-width: 94.333333%;
   }
 
   .time-work p {
