@@ -193,7 +193,7 @@ footer .footer-time p {
 }
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   .collapse:not(.show) {
     display: flex !important;
   }
@@ -285,7 +285,100 @@ footer .row .col-4, footer .row .col-3{
 }
 }
 
-@media (min-width: 376px) and (max-width: 575px) {
+@media (min-width: 375px) and (max-width: 414px){
+  .collapse:not(.show) {
+    display: flex !important;
+  }
+  nav a span {
+    visibility: hidden;
+  }
+  nav .col-sm-8 {
+    flex: 0 0 49.333333%;
+    max-width: 49.333333%;
+  }
+
+  nav .col-sm-4 {
+    flex: 0 0 47.333333%;
+    max-width: 47.333333%;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .header p {
+    font-size: 0.8rem;
+  }
+
+  .time .col-4 {
+    flex: 0 0 85.333333%;
+    max-width: 85.333333%;
+  }
+
+  .time-work p {
+    font-size: 1rem;
+  }
+
+  .services .row-cols-4 > * {
+    flex: 0 0 87%;
+    max-width: 87%;
+  }
+
+  .stock .col-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 94.666667%;
+    max-width: 94.666667%;
+}
+
+.stock .col-8 .col-5 {
+  flex: 0 0 88.666667%;
+  max-width: 92.666667%;
+}
+
+.card-stock.first-stock, .card-stock.second-stock{
+  padding: 2.75rem;
+}
+
+.first-stock p, .second-stock p {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.adv h1 {
+  font-size: 1.5rem;
+}
+
+.map h1{
+  font-size: 1.5rem;
+}
+
+.services h1{
+  font-size: 1.5rem;
+}
+
+.stock h1{
+  font-size: 1.5rem;
+}
+
+.adv .row .col-1 {
+  -ms-flex: 0 0 8.333333%;
+  flex: 0 0 15.333333%;
+  max-width: 15.333333%;
+}
+
+footer .row{
+  flex-direction: column;
+}
+footer .row .col-4, footer .row .col-3{
+  flex: 0 0 100%;
+    max-width: 100%;
+    padding: .5rem!important;
+    text-align: center;
+}
+}
+
+
+@media (min-width: 415px) and (max-width: 575px) {
   nav .col-sm-4 {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
@@ -359,7 +452,7 @@ footer .row .col-4, footer .row .col-3{
   nav a span {
     visibility: hidden;
   }
-  .nav .row {
+  nav .row {
     width: 100%;
   }
   nav .col-sm-8 {
